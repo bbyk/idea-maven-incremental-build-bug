@@ -11,4 +11,11 @@
 
     <artifactId>child</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>parent</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
